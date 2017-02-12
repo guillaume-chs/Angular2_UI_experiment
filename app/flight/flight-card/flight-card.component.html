@@ -1,0 +1,11 @@
+﻿<div class="col s6" *ngIf="!!flight">
+    <div class="card blue-grey lighten-5" (click)="onUnselect()">
+        <div class="card-content">
+            <img src="app/assets/images/airplane.png" alt="airplane" class="airplane-img">
+            <div class="container airplane-content">
+                <span class="card-title">{{flight.name}}</span>
+                <p>Ville : {{flight.arrival_city}}&nbsp;-&nbsp;Prix : {{flight.price}}€</p>
+            </div>
+        </div>
+    </div>
+</div>

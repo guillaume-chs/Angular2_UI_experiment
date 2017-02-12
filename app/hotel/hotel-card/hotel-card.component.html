@@ -1,0 +1,11 @@
+﻿<div class="col s6" *ngIf="!!hotel">
+    <div class="card blue-grey lighten-5" (click)="onUnselect()">
+        <div class="card-content">
+            <img src="app/assets/images/hotel.png" alt="hotel" class="hotel-img">
+            <div class="container hotel-content">
+                <span class="card-title">{{hotel.name}}</span>
+                <p>Ville : {{hotel.city}}&nbsp;-&nbsp;{{hotel.price}}€</p>
+            </div>
+        </div>
+    </div>
+</div>

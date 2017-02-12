@@ -1,0 +1,42 @@
+﻿<div *ngIf="initialized">
+    <div class="container" *ngIf="loading && submitted">
+        <div class="progress">
+            <div class="indeterminate"></div>
+        </div>
+    </div>
+
+    <div class="container" *ngIf="!loading && !submitted">
+        <div class="row">
+            <div class="col s12">
+                <div class="card">
+                    <form (submit)="onSubmit($event)">
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="col m6 s12">
+                                    Prénom :
+                                    <div class="input-field inline">
+                                        <input type="text" class="validate" name="Prénom" required [(ngModel)]="firstname" />
+                                    </div>
+                                </div>
+                                <div class="col m6 s12">
+                                    Nom :
+                                    <div class="input-field inline">
+                                        <input type="text" class="validate" name="Nom" required [(ngModel)]="lastname" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-action center">
+                            <button type="submit" class="waves-effect waves-light btn btn-default" [disabled]="!isFormValid"><i class="material-icons left">navigation</i>Réserver</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" *ngIf="!loading && submitted">
+        Réservé !
+    </div>
+</div>

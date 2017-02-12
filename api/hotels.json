@@ -1,0 +1,31 @@
+[{
+    "City": "Nantes",
+    "Capacity": "60",
+    "Name": "Formule 24",
+    "IdHotel": "1",
+    "Price": "32"
+}, {
+    "City": "Nantes",
+    "Capacity": "60",
+    "Name": "Ixsis",
+    "IdHotel": "2",
+    "Price": "38"
+}, {
+    "City": "Paris",
+    "Capacity": "60",
+    "Name": "El Paris",
+    "IdHotel": "3",
+    "Price": "60"
+}, {
+    "City": "New York",
+    "Capacity": "60",
+    "Name": "Los New-Yorkes",
+    "IdHotel": "4",
+    "Price": "78"
+}, {
+    "City": "Kuala Lumpur",
+    "Capacity": "60",
+    "Name": "Escale à bord",
+    "IdHotel": "5",
+    "Price": "123"
+}]

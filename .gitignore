@@ -1,0 +1,8 @@
+app/*.js
+app/*/*.js
+app/*/*/*.js
+
+.vscode
+node_modules
+bower_components
+typings

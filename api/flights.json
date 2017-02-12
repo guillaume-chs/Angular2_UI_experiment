@@ -1,0 +1,46 @@
+[{
+    "ArrivalCity": "Nantes",
+    "ArrivalDate": "14/02/2017",
+    "DepartureCity": "Paris",
+    "DepartureDate": "15/02/2017",
+    "Capacity": "60",
+    "Name": "Vol 741-F14",
+    "IdVol": "1",
+    "Price": "80"
+}, {
+    "ArrivalCity": "Nantes",
+    "ArrivalDate": "15/02/2017",
+    "DepartureCity": "Paris",
+    "DepartureDate": "15/02/2017",
+    "Capacity": "70",
+    "Name": "Vol 741-B3K",
+    "IdVol": "2",
+    "Price": "43"
+}, {
+    "ArrivalCity": "New York",
+    "ArrivalDate": "15/02/2017",
+    "DepartureCity": "Paris",
+    "DepartureDate": "14/02/2017",
+    "Capacity": "180",
+    "Name": "Vol 108-113A3",
+    "IdVol": "3",
+    "Price": "360"
+}, {
+    "ArrivalCity": "Nantes",
+    "ArrivalDate": "15/02/2017",
+    "DepartureCity": "New York",
+    "DepartureDate": "14/02/2017",
+    "Capacity": "120",
+    "Name": "Vol 110-10EB7",
+    "IdVol": "4",
+    "Price": "120"
+}, {
+    "ArrivalCity": "Kuala Lumpur",
+    "ArrivalDate": "17/02/2017",
+    "DepartureCity": "Paris",
+    "DepartureDate": "15/02/2017",
+    "Capacity": "260",
+    "Name": "Vol 777-HYX56",
+    "IdVol": "5",
+    "Price": "260"
+}]
